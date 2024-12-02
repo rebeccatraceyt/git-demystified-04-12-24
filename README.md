@@ -16,10 +16,11 @@ You can fork this repository, and create a new branch using the steps below:
 
 Table of Contents:
 1. [🤝 Contribute](#-contribute)
-2. 
+2. [💻 Make a Pull Request](#-make-a-pull-request)
+3. [📢 Roll Call!](CONTRIBUTORS.md)
 
 ## 🤝 Contribute
-Once you're up and running in your own workspace, you can create a new branch and contribute to [contributors list](./CONTRIBUTORS.md/#-roll-call) 
+Once you're up and running in your own workspace, you can create a new branch and contribute to [contributors list](./CONTRIBUTORS.md) 
 
 To do that you can use the following steps (make sure to replace placeholders with your GitHub username):
 1. Create a new branch with:
@@ -44,7 +45,7 @@ git log origin
 git branch
 ```
 
-6. Add your GitHub username to the [contributors list](./CONTRIBUTORS.md/#-roll-call), with a link to your GitHub page. You can use this template below:
+6. Add your GitHub username to the [contributors list](./CONTRIBUTORS.md), with a link to your GitHub page. You can use this template below:
 ```
 [@your_github_username](https://github.com/your_github_username)
 ```
@@ -74,3 +75,24 @@ git push origin your_github_username
 
 ## 💻 Make a Pull Request
 
+1. Navigate to the original repository (where you created your fork)
+
+2. Above the list of files,  click `Compare & pull request` to create a pull request for the associated branch.
+
+3. On the page to create a new pull request, click `compare across forks`.
+
+4. In the "base branch" dropdown menu, select the branch of the upstream repository you'd like to merge changes into. This would be the original repository (`rebeccatraceyt/main`)
+
+5. In the "head fork" dropdown menu, select your fork, then use the "compare branch" drop-down menu to select the branch you made your changes in.
+
+6. Add a title and description for your pull request.
+#### Title:
+```
+[DOCS]Add your_github_username
+```
+
+#### Description:
+```
+Adding your_github_username to the list of contributors
+```
+7. To create a pull request that is ready for review, click Create Pull Request.
